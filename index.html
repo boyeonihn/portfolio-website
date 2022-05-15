@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Boyeon Ihn Dev. </title>
+		<title>Boyeon Ihn - Web Dev.</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -17,7 +17,7 @@
 			<section id="header">
 				<header class="major">
 					<h1>BOYEON IHN</h1>
-					<p>Software engineer, full-stack developer, avid language learner</a></p>
+					<p>Software engineer, full-stack web developer, avid language learner</a></p>
 				</header>
 				<div class="container">
 					<ul class="actions special">
@@ -29,13 +29,25 @@
 		<!-- One -->
 			<section id="one" class="main special">
 				<div class="container">
-					<span class="image fit primary"><img src="images/pic01.jpg" alt="" /></span>
 					<div class="content">
 						<header class="major">
 							<h2>About Me</h2>
 						</header>
+						<div class="square">
+							<img id="me" src="images\IMG_4766.JPG" alt="picture of Boyeon">
+						</div>
+						<h3>Hi, I'm Boyeon, your full-stack web developer!</h3>
 						<p>I've always been recognized by my colleagues and friends for two things: my ability to learn languages quickly, and to solve problems efficiently. With these two strengths, it is no surprise that I became a software engineer who is passionate about producing simple and impactful solutions for users. As a former speech language pathologist, I am a clear and concise communicator, team player, and analytical thinker.</p> 
 						<p>I'm currently based in Brooklyn, New York, but I call Shanghai and Seoul my homes. When I am not building a website, I am busy learning a language (I speak Korean, Mandarin, and am learning Japanese), listening to a podcast, or walking in the park with my dog.</p>
+						<p>These are the various languages and technologies I use for my software engineering:</p>
+						<ul>
+							<li>HTML5</li>
+							<li>JavaScript</li>
+							<li>CSS3</li>
+							<li>React.js</li>
+							<li>Node.js</li>
+							<li>MongoDB</li>
+						</ul>
 						<p>Keep reading to see my recent work! </p>
 					</div>
 					<a href="#two" class="goto-next scrolly">Next</a>
@@ -45,33 +57,32 @@
 		<!-- Two -->
 			<section id="two" class="main special">
 				<div class="container">
-					<span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span>
 					<div class="content">
 						<header class="major">
 							<h2>Recent Work</h2>
 						</header>
 						<section class="square-grid">
 							<article class="square">
-								<a><img src=""></a>
-								<h3></h3>
-								<p></p>
+								<a href="https://gorgeous-semolina-0fa19b.netlify.app/" target="_blank"><img src="images\lunalogisticsResized.png" alt="screenshot of Luna Logistics Website"></a>
+								<div>
+									<a href="https://gorgeous-semolina-0fa19b.netlify.app/" target="_blank"><h3>LUNA Logistics</h3></a>
+									<p>A fully responsive business website created for my client using the following tech stack: HTML5, CSS3, and JavaScript</p>
+								</div>
 							</article>
 							<article class="square">
-								<a><img src=""></a>
-								<h3></h3>
-								<p></p>
+								<a href="https://glowing-moonbeam-1668fc.netlify.app/" target="_blank"><img src="https://i.ibb.co/KGcCGtR/ccs-card-api.png" alt="screenshot of Cardcaptor Sakura site"></a>
+								<div>
+									<a href="https://glowing-moonbeam-1668fc.netlify.app/" target="_blank"><h3>Cardcaptor Sakura Card Comparison Site</h3></a>
+									<p>A simple website that lets you compare the different Clow and Sakura Cards side-by-side using the following tech stack: HTML5, CSS3, JavaScript, and API</p>
+								</div>
 							</article>
 							<article class="square">
-								<a><img src=""></a>
-								<h3></h3>
-								<p></p>
+								<a href='https://relaxed-entremet-c40b40.netlify.app/' target="_blank"><img src="https://i.ibb.co/JqGgDSY/dog-wisdoms.png" alt="dog-wisdoms"></a>
+								<div>
+									<a href='https://relaxed-entremet-c40b40.netlify.app/' target="_blank"><h3>Cardcaptor Sakura Card Comparison Site</h3></a>
+									<p>Need an encouragement? I created a site that generates random quotes of wisdom with a cute dog picture using HTML5, CSS3, JavaScript, and API</p>
+								</div>
 							</article>
-							<article class="square">
-								<a><img src=""></a>
-								<h3></h3>
-								<p></p>
-							</article>
-
 						</section>
 												
 					</div>
@@ -87,7 +98,7 @@
 							<h2>Services</h2>
 						</header>
 						<p>It is my priority to provide you with web application solutions that actualize your vision and satisfy all your needs.</p>
-						<section class="square-grid">
+						<section class="square-grid process">
 							<article class="square">
 								<span class="icon solid major fa-camera-retro"></span>
 								<h3>1. Initial Consultation</h3>
@@ -447,7 +458,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<h2>Get in touch</h2>
 					</header>
 					<p>I am currently accepting new clients and am also open to new opportunities for projects. Please fill out the contact form below to leave me a message!</p>
-					<form method="post" action="#">
+					<form name="contact" method="post" data-netlify="true" action="#">
 						<div class="row gtr-uniform">
 							<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
 							<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>

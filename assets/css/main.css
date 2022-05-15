@@ -129,8 +129,8 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #8cd1a8;
+		/* border-bottom: dotted 1px;
+		color: #8cd1a8; */
 		text-decoration: none;
 	}
 
@@ -2763,6 +2763,17 @@ input, select, textarea {
 			text-align: left;
 		}
 
+		#one ul {
+			text-align: left; 
+			display: flex; 
+			justify-content: space-around; 
+		}
+
+		#one ul + p {
+			text-align: center; 
+			font-weight: bold; 
+		}
+
 		.square-grid {
 			display: flex;
 			flex-wrap: wrap;
@@ -2773,8 +2784,28 @@ input, select, textarea {
 
 		.square {
 			padding-top: 20px;
-			width: 300px;
+			width: 100%;
 			margin: 10px;
+		}
+
+		.square img {
+			width: 500px; 
+		}
+			#me {
+				height: 396px;
+				width: 300px; 
+				object-fit: contain;
+				border: 1px solid white; 
+				border-radius: 50%;
+			}
+
+		.square div {
+			margin-top: 10px; 
+			padding-left: 10px;
+
+		}
+		.square div p {
+			text-align: center; 
 		}
 
 	
@@ -2965,7 +2996,17 @@ input, select, textarea {
 				.main .container:before {
 					display: none;
 				}
+		
+		
+		.process {
+			display: flex; 
+			justify-content: row; 
+			flex-wrap: nowrap;
+		}
 
+		.square {
+			width: 50%: 
+		}
 		/* Header */
 
 			#header header {
@@ -3020,6 +3061,15 @@ input, select, textarea {
 			.main .goto-next {
 				display: none;
 			}
+		
+		.square img {
+			width: 80%; 
+		}
+		.process {
+			flex-wrap: wrap; 
+		}
+
+		
 
 		/* Header */
 
